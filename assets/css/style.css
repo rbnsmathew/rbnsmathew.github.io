@@ -838,6 +838,18 @@ main {
 
 .skills-list { padding: 20px; }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
